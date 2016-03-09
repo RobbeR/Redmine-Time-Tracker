@@ -1,0 +1,25 @@
+
+.RRTTTimeHolder {
+    display: inline-block;
+    font-size: 13px;
+    padding: 3px;
+    font-weight: bold;
+    color: #2996CC;
+}
+
+.RRTTButton {
+    color: white;
+    background: #2996CC;
+    border: none;
+    margin-right: 1px;
+    cursor: pointer;
+}
+
+.RRTTButton:disabled {
+    background: rgba(41, 150, 204, 0.5) !important;
+}
+
+.RRTTButton:focus {
+    box-shadow: none !important;
+    outline: none !important;
+}
