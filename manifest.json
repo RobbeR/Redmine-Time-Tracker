@@ -3,11 +3,11 @@
   "author": "Ignácz Róbert",
   "name": "RobbeR Redmine Time Tracker",
   "description": "This extension allows you to track time in Redmine",
-  "version": "1.1",
+  "version": "1.2",
   "content_scripts": [{
       "matches": ["*://*/*"],
       "css": ["style.css"],
-      "js": ["hacktimer.js", "jquery.js", "jquery.cookie.js", "moment.min.js", "rrtt.js"],
+      "js": ["rrtt.js"],
       "run_at": "document_end"
   }],
   "browser_action": {
