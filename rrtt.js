@@ -112,7 +112,7 @@ var RRTT = (function() {
         addTenMinute.click(this.addTenMinute);
 
         holder.append(timeHolder).append(startButton).append(pauseButton).append(resetButton).append(addOneMinute).append(addFiveMinute).append(addTenMinute);
-        holder.insertAfter($("#time_entry_hours").closest(".tabular").find(">.splitcontent"));
+        holder.insertAfter($("#time_entry_hours").closest(".tabular").find(">legend").next());
 
         $("#issue-form").submit(function() {
             $.removeCookie(cookie_key);
