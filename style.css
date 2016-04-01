@@ -23,3 +23,8 @@
     box-shadow: none !important;
     outline: none !important;
 }
+
+.RRTTaddMinutesButton {
+    font-size: 10px;
+    padding-left: 10px;
+}
